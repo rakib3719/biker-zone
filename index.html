@@ -5,7 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+
+<style>
+
+
+.poppins{
+
+
+  font-family: 'Poppins', sans-serif;
+}
+/* main{
+
+  max-width: 80% ;
+  margin:auto
+} */
+</style>
 
 <script>
     tailwind.config = {
@@ -25,7 +43,7 @@
 
     <title>Biker-zone</title>
 </head>
-<body>
+<body class="poppins" >
    <header  class="container mx-auto">
 
 
@@ -53,7 +71,7 @@
           </ul>
         </div>
         <div class="">
-          <a class="btn ml-14 btn-error bg-btn-bike">Button</a>
+          <a class="btn ml-14 btn-error bg-btn-bike text-white">Button</a>
         </div>
       </div>
 
@@ -213,7 +231,253 @@
 
    </header> 
 
-<main>
+<main class=" max-w-[90%] md:max-w-[80%] mx-auto" >
+
+<div class="feture mt-24">
+
+
+
+<h1 class="text-3xl md:text-4xl text-center font-semibold " >Fetured Bikes In This Year</h1>
+<p  class="text-sm text-btn-bike text-center" >Best bike collection</p>
+
+<div class="feture-main justify-items-center mx-auto  grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 " >
+
+<div class="feture-item-1">
+
+<img src="./images/others/feature-bike.png" alt="">
+
+</div>
+<div class="feture-item-2">
+  <img src="./images/others/feature-bike.png" alt="">
+
+</div>
+<div class="feture-item-3">
+
+  <img src="./images/others/feature-bike.png" alt="">
+
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+<div class="latest  mt-24">
+
+
+  <h1 class="text-3xl md:text-4xl text-center font-semibold " >latest News</h1>
+
+
+<div class="latest-card grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+
+<div class="card-item-1">
+
+  <div class="card mt-8 bg-base-100  border border-gray-300 ">
+    <figure class="px-5 pt-5">
+      <img src="./images/others/latest1.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body ">
+      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+      <div class="card-actions">
+        <button class="btn bg-btn-bike text-white">Purces</button>
+      </div>
+    </div>
+  </div>
+
+
+ 
+  
+
+
+</div>
+
+
+<div class="card-item-2">
+
+  <div class="card mt-8 bg-base-100  border border-gray-300 ">
+    <figure class="px-5 pt-5">
+      <img src="./images/others/latest2.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body ">
+      <h2 class="card-title">Motorcycles & Scooters</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+      <div class="card-actions">
+        <button class="btn bg-btn-bike text-white">Purces</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<div class="card-item-3">
+
+  <div class="card mt-8 bg-base-100  border border-gray-300 ">
+    <figure class="px-5 pt-5">
+      <img src="./images/others/latest3.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body ">
+      <h2 class="card-title">2021 Honda CBR500R</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+      <div class="card-actions">
+        <button class="btn bg-btn-bike text-white">Purces</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="customer-review-section mt-24">
+  <h1 class="text-3xl md:text-4xl text-center font-semibold " >Happy <span class="text-btn-bike" >Clients says</span></h1>
+
+
+
+<div class="review mt-14 grid grid-cols-1 md:grid-cols-3 gap-4">
+
+
+  <div class="review-1">
+
+    <div class="card  bg-base-100 border border-gray-300 ">
+      <figure class="px-10 pt-10">
+        <img  src="./images/others/user-1.png" alt="Shoes" class="w-36" />
+      </figure>
+      <div class="card-body  space-y-2 items-center text-center">
+      
+        <p>Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+        <div class="card-actions">
+          
+
+
+          <div class="rating">
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" checked />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+          </div>
+
+
+        </div>
+        <p  class="text-[#23A6F0] text-2xl font-semibold" >Regina Miles</p>
+        <h4  class="text-2xl font-semibold mr-2" >Banker</h4>
+
+      </div>
+    </div>
+
+
+
+    
+  </div>
+
+  <div class="review-2">
+
+
+    <div class="card  bg-base-100 border border-gray-300 ">
+      <figure class="px-10 pt-10">
+        <img  src="./images/others/user-2.png" alt="Shoes" class="w-36" />
+      </figure>
+      <div class="card-body  space-y-2 items-center text-center">
+      
+        <p>Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+        <div class="card-actions">
+          
+
+
+          <div class="rating">
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" checked />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+          </div>
+
+
+        </div>
+        <p  class="text-[#23A6F0] text-2xl font-semibold" >ema miles</p>
+        <h4  class="text-2xl font-semibold mr-2" >Model </h4>
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <div class="review-3">
+
+
+    <div class="card  bg-base-100 border border-gray-300 ">
+      <figure class="px-10 pt-10">
+        <img  src="./images/others/user-3.png" alt="Shoes" class="w-36" />
+      </figure>
+      <div class="card-body  space-y-2 items-center text-center">
+      
+        <p>Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+        <div class="card-actions">
+          
+
+
+          <div class="rating">
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" checked />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-btn-bike" />
+          </div>
+
+
+        </div>
+        <p  class="text-[#23A6F0] text-2xl font-semibold" >mark chapman</p>
+        <h4  class="text-2xl font-semibold mr-2" >cricketer </h4>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+</div>
+
+
+
+
+</div>
 
 
 </main>
